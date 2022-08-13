@@ -69,7 +69,7 @@ ul {
 
 /*Class Selector*/
 .tools {
-	border: 5px solid #f2f2f2;
+	border: 5px solid #ffddd2;
 	height: 200px;
 	/*percentage as measuremnent for width based on the total width of the parent element*/
 	width: 75%;
