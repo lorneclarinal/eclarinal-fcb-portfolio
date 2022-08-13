@@ -38,12 +38,17 @@ img {
 
 /*Id Selector*/
 #landing {
-	/*viewheight*/
+	/* vh - viewport height --> determined or measured percentage of the height of the device your are viewing your webpage in*/
 	height: 90vh;
 	/*flexible responsive layout from left to right*/
+	/*flexbox --> allows us to arrange or layout elements inside our landing section horizontally and vertically
+		by default, display: flex; arranges elements inside the parent element*/
 	display: flex;
+	/*flex-direction: column; --> arranges flex items into a column*/
 	flex-direction: column;
+	/*justify-content: center; --> arranges elements horizontally if the flex items are in a row. however it arranges elements vertically if the flex items are in a column */
 	justify-content: center;
+	/*align-items: center; --> arranges all flex items to be centered vertically*/
 	align-items: center;
 
 }
@@ -66,13 +71,16 @@ ul {
 .tools {
 	border: 5px solid #f2f2f2;
 	height: 200px;
+	/*percentage as measuremnent for width based on the total width of the parent element*/
 	width: 75%;
+	/*margin ---> space outside the element*/
 	margin: 20px;
+	/*padding --> space inside the element*/
 	padding: 25px;
 }
 
 h2 {
-	color: #007bff;
+	color: #81b29a;
 }
 
 html {
