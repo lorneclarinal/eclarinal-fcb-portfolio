@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Comments are useful for proper documentation and it is ignored by the browser and do not show as a text (Ctrl + /) -->
+		<!-- meta charset specifies the character encoding for the HTML Document -->
+		<meta charset="utf-8">
+		<!-- response/ it will be smaller on a mobile phone than on a computer screen -->
+		<meta name="viewport" content="width=device-width, intitial-scale=1.0">
+		<title> Lorraine Eclarinal | Web Developer Portfolio</title>
+
+		<!-- Google Fonts | Montserrat Semi-Bold & Robot Regular -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+
+		<!-- External CSS -->
+		<link rel="stylesheet" href="style.css">
+		
+		<!-- Bootstrap -->
+		<!-- CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+	</head>
+
+	<body>
+		<!-- Navbar start -->
+		<nav class="navbar navbar-expand-lg bg-success navbar-dark sticky-top">
+		  <div class="container-fluid">
+		    
+		    <button 
+		    class="navbar-toggler ms-auto" 
+		    type="button" 
+		    data-bs-toggle="collapse" 
+		    data-bs-target="#portfolio-nav" 
+		    aria-controls="navbarNav" 
+		    aria-expanded="false" 
+		    aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+
+		    <div class="collapse navbar-collapse" id="portfolio-nav">
+		      <ul class="navbar-nav mx-auto">
+		        <li class="nav-item">
+		          <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+		        </li>
+
+		        <li class="nav-item">
+		          <a class="nav-link active" href="#gallery">Gallery</a>
+		        </li>
+		        
+		      </ul>
+		    </div>
+		  </div>
+		</nav>		
+		<!-- Navbar end -->
+
+
+		<!-- h1 tag creates a heading text element that's larger in size and a bolder text. HEADER TAGS-->
+<!-- 	<h2>Hello World!</h2>
+		<h3>Hello World!</h3>
+		<h4>Hello World!</h4>
+		<h5>Hello World!</h5>
+		<h6>Hello World!</h6> -->
+		<!-- ctrl + shift + D -- for copy paste -->
+
+		<!-- div defines a division or a section in html 
+			class is an attribute to name our div-->
+		<div class="container-fluid">
+
+		<!-- landing page section start -->
+			<section id="landing" class="text-center mt-3">
+
+				<h1>Full Stack Web Developer</h1>
+				<p>Lorraine Eclarinal</p>
+				<img src="images\Lorn.jpeg">
+
+			</section>
+
+			<section id="gallery" class="text-center bg-dark text-white mb-3" >
+				<!-- Bootstrap color classes: primary, secondary, info, danger, success, warning, light/white, transparent -->
+				<div class="tools">
+					<h2>Languages I Speak</h2>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+						</ul>
+				</div>
+
+				<div class="tools">
+					<h2>Tools I Use</h2>
+						<ul>
+							<li>Git Bash/Terminal</li>
+							<li>Sublime Text</li>
+							<li>GitLab</li>
+							<li>Google Chrome</li>
+						</ul>
+				</div>
+
+			</section>
+
+
+		</div>
+		<!-- landing page section end -->
+
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+	</body>
+</html>
